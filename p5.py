@@ -11,7 +11,7 @@ for i in range(val1, val2+1):
 print(sum)
 
 
-#using lambda function
+#using lambda function 
 
 sum_of_range = lambda x,y : np.sum(range(x,y+1))
 val11 = int(input("Enter a number: "))
