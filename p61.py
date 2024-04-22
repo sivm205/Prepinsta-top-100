@@ -17,7 +17,8 @@ class Count_Frequency():
         return temp_dict 
         
 
-array1 = np.random.randint(1,100,size=10)
+array1 = np.random.randint(1,10,size=10)
+
 array1 = Count_Frequency(array1)
 print(array1.get_frequency())
 
